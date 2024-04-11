@@ -1,5 +1,6 @@
 import './style.css';
-import { Map, View } from 'ol';
+import Map from 'ol/Map';
+import View from 'ol/View';
 import OSM from 'ol/source/OSM';
 import { Style, Circle, Fill } from 'ol/style';
 import TileLayer from 'ol/layer/Tile.js';
